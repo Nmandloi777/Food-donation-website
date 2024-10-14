@@ -1,0 +1,50 @@
+
+  .formD {
+    color: rgb(71, 10, 10);
+    
+   width: 65%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+  }
+ .formD input{
+    border-radius: 10px;
+    
+ }
+  .select1{
+    width: 150px;
+    height: 34px;
+    padding: 7px;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 8px;
+  }
+  .div1 {
+    margin-bottom: 20px;
+
+  }
+  
+  .inp {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 60%;
+    padding: 7px;
+    display: block;
+  }
+  
+  .ab{
+    left: 560px;
+    top:2ch;
+    width: 30cm;
+  }
+  .shifter{
+    position: relative;
+    display: flex;
+    left: -210px;
+    font-weight: 600;
+    font-size: 21px;
+  }
+
+  

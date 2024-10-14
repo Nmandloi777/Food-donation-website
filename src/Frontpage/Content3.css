@@ -1,0 +1,146 @@
+.cover{
+    cursor: pointer;
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+  /* border-radius: 20px; */
+}
+.slider{
+  
+  filter: brightness(55%);
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+  padding: 2%;
+
+}
+figure.slider { 
+  position: relative; 
+  width: 502%;
+  height: 570px;
+  font-size: 0; animation: 30s slidy infinite; 
+  /* border-radius: 20px; */
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+
+}
+figure.slider img { 
+    width: 98%; 
+    height: 600px;
+    border-radius: 30px; 
+}
+
+.thirdpara{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    top: 68vh;
+    
+}
+
+.h1{
+    position: absolute;
+    text-shadow: 3px 3px #29158c;
+    z-index: 2;
+    top: 20vh;
+    left: 42.8%;
+    font-size: 6.51vw;
+    font-weight: 600;
+    color: #ffffff;
+    
+    display: block;
+  
+    width: 65%;
+   
+  
+    transform: translate(-50%, -50%); /* This centers the div */
+}
+.pp{
+    position: absolute;
+    z-index: 2;
+    top: 53.5vh;
+    left:31.6ch;
+    font-size: 2.41vw; /*This is very important css*/
+    font-weight: 600;
+    color: #ffffff;
+    
+    display: block;
+    text-shadow: 2px 2px #29158c;
+    width: 78%;
+    text-align: justify;
+  
+    transform: translate(-50%, -50%); /* This centers the div */
+}
+.process{
+    position: relative;
+    width: auto;
+    height: 80vh;
+    display: flex;
+    /* background-color: #29158c; */
+    margin: 130px;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+.processcard{
+  height: 72vh;
+  display: flex;
+  position: relative;
+  background-color: azure;
+  width: 31%;
+  margin: 30px;
+  border-radius: 200px 200px 0 0;
+}
+.name{
+  z-index: 1;
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  width: 23.80vw;
+  height: 12vh;
+  font-weight: 600;
+  font-size: 21.4px;
+  text-align: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: #2980b9;
+  color: #ffffff;
+  
+}
+.saying{
+  font-size: 30px;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  margin-top: 60px;
+
+}
+.one{
+  background-image: url("../Images/Parcel.png");
+  background-size: 110% ;
+  background-position: 0 120% ;
+
+}
+.two{
+  background-image: url("../Images/Line.png");
+  background-size: 110% ;
+  background-position: 0 120% ;
+}
+.three{
+  background-image: url("../Images/Truck.png");
+  background-size: 110% ;
+  background-position: 45% 120% ;
+}

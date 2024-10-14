@@ -1,0 +1,94 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+    position: relative;
+    margin: 0;
+}
+.login-form {
+    background-color: #eeeee6;
+    
+    /* background-image: url("../Images/admin.jpg");
+     */
+    padding: 27px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    text-align: left;
+    width: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.login-form h2{
+    text-align: center;
+    font-size: 38px;
+    padding: 10px;
+    color: #2980b9;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    padding-top: 3px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: large;
+}
+.form-group input {
+    width: 100%;
+    padding: 7.4px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    
+}
+.image-container {
+    
+    margin-left: 30px;
+    display: flex;
+    position: relative;
+    padding: 2px;
+    
+}
+.image-container img {
+    
+    max-width: 100%;
+    padding: 2px;
+    
+}
+.imageadmin{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: block;
+    top: 1cm;
+    height: 340px;
+    /* width: 500px; */
+}
+
+.btadmin{
+
+    padding: 4px;
+    box-shadow: #000;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 16px;
+    background-color: #2980b9;
+    display: flex;
+    color: #ffffff;
+    margin-left: 65px;
+    font-size: large;
+    font-weight: 400;
+    border:#ffffff
+    
+}
+.login-form button{
+    margin-top: 20px;
+}
+.admininfo{
+    display: block;
+    position: absolute;
+    top: 66vh;
+    font-size: large;
+}

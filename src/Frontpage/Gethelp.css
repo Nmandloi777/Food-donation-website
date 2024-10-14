@@ -1,0 +1,63 @@
+.textplacer{
+    width: 1000vh;
+    top: -20px;
+    left: -118vw;
+    position: relative;
+}
+
+.scroll{
+   left: 10px; 
+   top: 40px;
+}
+.text1{
+  
+        font-size: 100px;
+        font-weight: 600;
+        color: #2980b9;
+        display: block;
+        position:relative;
+        width: 65%;
+        left: 57.7%; 
+        top: 21vh; 
+        transform: translate(-50%, -50%); /* This centers the div */
+    
+}
+.locations{
+    display: inline-block;
+    position: relative;
+    flex-direction: column;
+    width: 80%;
+    height: 20ch;
+    border-radius: 10px;
+    margin: 50px ;
+    background-color: rgb(105, 184, 244);
+    
+}
+.nameloca{
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: #2980b9;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+
+.locamap {
+   position: relative;
+   display: inline-block;
+   width: 50%;
+   height: 20ch;
+   border-radius: 10px;
+   
+}
+.locamap iframe{
+    display: inline-block;
+    align-items: center;
+    height: 200px;
+    width: 80vw;
+    border-radius: 10px;
+    
+}
